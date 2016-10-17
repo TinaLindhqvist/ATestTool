@@ -1,9 +1,9 @@
 applications:
-- name: TestProjectFinder
+- name: ATestTool
   framework: node
   runtime: node08
   memory: 256MB
   instances: 1
-  host: TestProjectFinder
+  host: ATestTool
   path: .
   command: node app.js
