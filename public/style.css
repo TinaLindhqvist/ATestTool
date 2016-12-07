@@ -4,7 +4,7 @@ body {
 	font-family: "Verdana";
 	padding: 10;
 	margin: 20;
-	background-color:rgb(38,52,63);
+	background-color:gray;
 	}
 
 h1 {
@@ -27,7 +27,7 @@ h3 {
 
 p {
 	color:white; 
-	font-family:verdana;
+	font-family: "Verdana";
 	}
 	
 table {
