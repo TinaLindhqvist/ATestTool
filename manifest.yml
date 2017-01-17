@@ -3,6 +3,7 @@ applications:
   framework: node
   runtime: node08
   memory: 256MB
+  buildpack: nodejs_buildpack
   instances: 1
   host: ATestTool
   path: .
