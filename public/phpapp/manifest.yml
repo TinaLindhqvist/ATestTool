@@ -1,0 +1,6 @@
+applications:
+- disk_quota: 1024M
+  buildpack: php_buildpack
+  path: .
+  instances: 1
+  memory: 128M
