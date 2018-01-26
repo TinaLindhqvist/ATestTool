@@ -6,6 +6,7 @@ app.use(express.errorHandler());
 app.set('view engine', 'ejs');
 app.get('/', function(req, res){
 	res.render('index');
+	res.render('secondPage');
 });
 
 app.use(express.static(__dirname + '/public')); 
