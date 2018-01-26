@@ -5,6 +5,6 @@ applications:
   memory: 128MB
   buildpack: nodejs_buildpack
   instances: 1
-  host: ATestTool
+  host: atesttool
   path: .
   command: node app.js
